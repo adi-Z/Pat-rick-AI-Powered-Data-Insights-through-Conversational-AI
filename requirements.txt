@@ -1,0 +1,26 @@
+# Basic utilities
+pandas
+matplotlib
+seaborn
+PIL
+
+# Streamlit for web application
+streamlit
+
+# Database connection libraries
+mysqlclient
+sqlalchemy
+
+# LangChain and OpenAI for model interaction
+langchain
+langchain-community
+langchain-experimental
+langchain_openai
+
+# Ollama model (Ensure this is installed correctly, might need additional setup)
+ollama
+
+# Optional, for HTTPS requests etc.
+requests
+
+
