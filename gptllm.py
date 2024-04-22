@@ -10,7 +10,7 @@ from langchain_openai import ChatOpenAI
 
 # Create an instance of SQLDatabase using the database connection parameters
 db = SQLDatabase.from_uri(
-    "mysql://algonquin:Canada2023*@deved.sytes.net:3306/canada_post",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",#Use your MYSQL URI
     sample_rows_in_table_info=3,
 )
 ## Implementation ##
@@ -22,7 +22,7 @@ db = SQLDatabase.from_uri(
 llm = ChatOpenAI(
     model="gpt-3.5-turbo",
     temperature=0,
-    api_key="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",
+    api_key="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",#Use your API key
 )
 
 # Database Instance
